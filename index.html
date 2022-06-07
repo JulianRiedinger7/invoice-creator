@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Creator</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+
+  <main>
+    <section class="header">
+      <h1>Invoice Creator</h1>
+      <h3>Thanks for choosing GoodCorp, LLC!</h3>
+    </section>
+
+    <section class="services">
+      <div class="flex">
+        <button id="wash">Wash Car: $10</button>
+        <button id="mow">Mow Lawn: $20</button>
+        <button id="pull">Pull Weeds: $30</button>
+      </div>
+
+      <div class="grid-container">
+        <div class="notes">
+          <p>TASK</p>
+          <div class="tasks"></div>
+        </div>
+
+        <div>
+          <p>TOTAL</p>
+          <div class="prices"></div>
+
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="notes">
+          <p>NOTES</p>
+          <p>We accept cash, credit card, or PayPal</p>
+        </div>
+
+        <div>
+          <p>TOTAL AMOUNT</p>
+          <h2 id="total">$0</h2>
+        </div>
+      </div>
+
+      <div class="send-container">
+        <a href="#" class="send">
+          <i class="bi bi-envelope"></i>
+          Send Invoice
+        </a>
+      </div>
+    </section>
+
+
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
